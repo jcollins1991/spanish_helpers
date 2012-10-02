@@ -1,6 +1,8 @@
 #!/bin/env ruby
 # encoding: utf-8
 
+# leave utf-8 header for the ñ's, á's, and all their friends
+
 verbs = {'bailar' => 'to dance',
  'buscar' => 'to look for',
  'caminar' => 'to walk',
