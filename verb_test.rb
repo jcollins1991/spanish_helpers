@@ -32,6 +32,43 @@ verbs = {'bailar' => 'to dance',
  'trabajar' => 'to work',
  'viajar' => 'to travel'}
 
+verbs = {'el esposo'=>'husband',
+ 'la esposa'=>'wife',
+ 'el hermanastro'=>'stepbrother',
+ 'la hermanastra'=>'stepsister',
+ 'el hermano'=>'brother',
+ 'la hermana'=>'sister',
+ 'el hijastro'=>'stepson',
+ 'la hijastra'=>'stepdaughter',
+ 'la madrastra'=>'stepmother',
+ 'el padrastro'=>'stepfather',
+ 'el medio hermano'=>'half brother',
+ 'el media hermana'=>'half sister',
+ 'los padres'=>'parents',
+ 'el abuelo'=>'grandfather',
+ 'la abuela'=>'grandmother',
+ 'el padre'=>'father',
+ 'la madre'=>'mother',
+ 'los hijos'=>'children',
+ 'el hijo'=>'son',
+ 'la hija'=>'daughter',
+ 'el cuñado'=>'brother in law',
+ 'la cuñada'=>'sister in law',
+ 'el nieto'=>'grandson',
+ 'la nieta'=>'granddaughter',
+ 'la nuera'=>'daughter in law',
+ 'el yerno'=>'son in law',
+ 'los parientes'=>'relatives',
+ 'el primo'=>'cousin',
+ 'la prima'=>'cousin',
+ 'el sobrino'=>'nephew',
+ 'la sobrina'=>'niece',
+ 'el sugro'=>'father in law',
+ 'la suegra'=>'mother in law',
+ 'el tío'=>'uncle',
+ 'el tía'=>'aunt'
+}
+
 while true do
   random_verb = verbs.keys.sample
   puts random_verb
