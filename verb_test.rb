@@ -32,7 +32,7 @@ verbs = {'bailar' => 'to dance',
  'trabajar' => 'to work',
  'viajar' => 'to travel'}
 
-verbs = {'el esposo'=>'husband',
+la_familia = {'el esposo'=>'husband',
  'la esposa'=>'wife',
  'el hermanastro'=>'stepbrother',
  'la hermanastra'=>'stepsister',
@@ -69,17 +69,22 @@ verbs = {'el esposo'=>'husband',
  'el tía'=>'aunt'
 }
 
-while true do
-  random_verb = verbs.keys.sample
-  puts random_verb
-  
-  input = gets.strip
-  
-  if input == verbs[random_verb]
-    puts "  Good job!"
-  else
-    puts "  Wrong, the answer was: " + verbs[random_verb]
-  end
 
-  puts
+def test words
+  while true do
+    random_word = words.keys.sample
+    puts random_word
+    
+    input = gets.strip
+    
+    if input == words[random_word]
+      puts "  Good job!"
+    else
+      puts "  Wrong, the answer was: " + words[random_word]
+    end
+
+    puts
+  end
 end
+
+test verbs
